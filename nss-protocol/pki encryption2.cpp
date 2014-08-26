@@ -1,4 +1,4 @@
-/* Example code to illustrate PKI crypto ops (encrypt with public key,
+/* Example code to illustrate PKI crypto ops (encrypt with public key, 
  * decrypt with private key)
  *
  * Code assumes that you have set up a NSS database with a certificate
