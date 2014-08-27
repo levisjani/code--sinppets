@@ -44,4 +44,4 @@
 			var jane = new CatWings();
 			console.dir(jane);
 
-		</script>
+		</script> 
