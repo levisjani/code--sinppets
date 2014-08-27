@@ -68,8 +68,5 @@
 			var twosay3 = one.say.bind(two, 'Enchanté');
 			console.log(twosay3()); // "Enchanté, another object"
 
-
-			// reference
-			// http://shop.oreilly.com/product/9780596806767.do
 		</script>
 	</body>
