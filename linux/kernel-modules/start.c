@@ -1,5 +1,5 @@
 /*
- *  start.c - Illustration of multi filled modules
+ *  start.c - Multi filled modules
  */
  
 #include <linux/kernel.h>
