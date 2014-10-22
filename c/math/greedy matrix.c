@@ -25,7 +25,7 @@ void prim() {
    minimumCost = temp;
  
    /* Now we have to find min dis of each vertex from either
-    startVertex or endVertex by initialising nr[] array
+    startVertex or endVertex by initialising nr[]array
     */
  
    for (i = 0; i < n; i++) {
