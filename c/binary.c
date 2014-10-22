@@ -15,7 +15,7 @@ int main(){
       }
 
       printf("Equivalent binary value of decimal number %d: ",decimalNumber);
-      for(j = i-1; j>0;j--)
+      for(j = i-1; j>0; j--)
       printf("%d",binaryNumber[j]);
 
       return 0;
