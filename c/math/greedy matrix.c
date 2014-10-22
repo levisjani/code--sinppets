@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<ncurses.h>
  
 int n, cost[10][10];
  
