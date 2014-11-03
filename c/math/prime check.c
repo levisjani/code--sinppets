@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <conio.h>
 
-int int main(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
 	int n, i, flag=0;
 	
 	printf("Enter a positive integer: \n");
     scanf("%d", &n);
 
-    for (int i = 2; i <= n/2; ++i)
+    for (i = 2; i <= n/2; ++i)
     {
     	if (n%1 == 0)
     	{
@@ -22,5 +23,6 @@ int int main(int argc, char const *argv[])
     }else{
     	printf("%d is not a prime number\n",n);
     }
+    	getch();
 	return 0;
 }
