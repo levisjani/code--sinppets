@@ -1,16 +1,15 @@
-#imclude <stdio.h>
+#include <stdio.h>
 
 int main(void){
 
     int n, i, c, a=1;
-    printf("Enter the number of rows of 
-            Floyd's triangle to print\n");
+    printf("Enter the number of rows of Floyd's triangle to print\n");
     scanf("%d", &n);
     printf("Floyd's triangle \n");
     for (i=1; i<=n; i++){
       for (c=1; c<=i; c++){
         printf("%d", a);
-        a++
+        a++;
       }
       printf("\n");
     }
