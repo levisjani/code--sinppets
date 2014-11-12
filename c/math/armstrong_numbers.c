@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ncurses.h>
  
 int main()
 {
@@ -24,5 +25,6 @@ int main()
       sum = 0;
    }
  
+   getch(); 
    return 0;
 }
