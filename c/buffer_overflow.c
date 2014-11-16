@@ -24,6 +24,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ncurses.h>
 
 
 int main(int argc, char **argv)
@@ -48,5 +49,6 @@ int main(int argc, char **argv)
 		printf("\n Root privileges granted\n");
 		}	
 		
+	getch();
 	return 0;
 }
