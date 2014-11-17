@@ -1,6 +1,5 @@
-$ vim factorial.c
 # include <stdio.h>
-
+#include <ncurses.h>
 int int main(int argc, char const *argv[])
 {
 	int i, num, j;
@@ -11,5 +10,7 @@ int int main(int argc, char const *argv[])
 		j = j*i;
 	}
 	printf("The factorial of %d is %d: \n",num,j);
+	
+	getch();
 	return 0;
 }
