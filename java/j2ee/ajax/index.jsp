@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 16-Jun-2010, 21:19:58
-    Author     : elton
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
