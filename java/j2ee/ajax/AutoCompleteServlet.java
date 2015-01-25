@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.ajax.servlets;
-
 import com.ajax.Composer;
 import com.ajax.ComposerData;
 import java.io.IOException;
@@ -19,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author elton
+ * @author levis
  */
 public class AutoCompleteServlet extends HttpServlet {
 
