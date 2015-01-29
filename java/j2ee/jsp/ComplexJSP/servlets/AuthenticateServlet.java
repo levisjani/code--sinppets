@@ -1,10 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package unyt.servlets;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -21,7 +14,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author elton
+ * @author levis.jani
  */
 public class AuthenticateServlet extends HttpServlet {
    
