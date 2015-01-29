@@ -1,15 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package unyt.customer;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
  *
- * @author elton.ballhysa
+ * @author levis.jani
  */
 public class Customer {
     
