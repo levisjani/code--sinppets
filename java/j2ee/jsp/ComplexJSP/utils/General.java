@@ -1,17 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package unyt.utils;
-
 import java.sql.*;
 import java.util.*;
 
-/**
- *
- * @author elton
- */
 public class General {
         
     private static List<Item> items;
