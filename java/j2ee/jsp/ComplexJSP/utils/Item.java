@@ -1,18 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-package unyt.utils;
 
 import java.io.Serializable;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author elton
- */
 public class Item implements Serializable {
     private String id;
     private String name;
