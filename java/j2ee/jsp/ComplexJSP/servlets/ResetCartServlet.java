@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package unyt.servlets;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -17,7 +11,7 @@ import unyt.utils.Item;
 
 /**
  *
- * @author elton.ballhysa
+ * @author levis.jani
  */
 public class ResetCartServlet extends HttpServlet {
 
