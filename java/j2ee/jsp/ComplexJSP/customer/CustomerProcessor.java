@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package unyt.customer;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -16,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author elton.ballhysa
+ * @author levis.jani
  */
 public class CustomerProcessor {
     
