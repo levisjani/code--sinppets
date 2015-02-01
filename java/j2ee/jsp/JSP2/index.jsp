@@ -1,20 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
-    <%
-        String name = request.getParameter("first_name");
-        String surname = request.getParameter("last_name");
-        String fullname = name + " " + surname;
-    %>
-    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello <%=fullname%></h1>
-        <h1>Time at server <%=new Date()%></h1>
-        <p>
-            <a href="index.jsp"> Start Over </a>
-        </p>
+        <jsp:forward page="login.jsp">
+            <jsp:param name="username" value="abc" />
+        </jsp:forward>
+
+        <h1>Forwarding to login.jsp</h1>
     </body>
 </html>
