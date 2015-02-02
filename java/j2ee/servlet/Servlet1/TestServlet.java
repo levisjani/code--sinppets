@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package test.pack;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -13,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author elton.ballhysa
+ * @author levis
  */
 public class TestServlet extends HttpServlet {
 
