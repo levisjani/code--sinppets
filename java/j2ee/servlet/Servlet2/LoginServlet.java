@@ -1,0 +1,89 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package unyt.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ *
+ * @author elton
+ */
+@WebServlet(urlPatterns = "/login")
+public class LoginServlet extends HttpServlet {
+   
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /** 
+     * Handles the HTTP <code>GET</code> method.
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        try {
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Login</title>");
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<p align=\"center\">");
+            out.println("<h3>Please enter your login credentials</h3>");
+            out.println("<form name=\"frmLogin\" action=\"authenticate\" method=\"POST\">");
+            out.println("<table>");
+            out.println("<tr>");
+            out.println("<td bgcolor=\"#002222\">User name</td>");
+            out.println("<td><input type=\"text\" name=\"username\"></td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td bgcolor=\"#002222\">Password</td>");
+            out.println("<td><input type=\"password\" name=\"password\"></td>");
+            out.println("</tr>");
+            out.println("<tr>");
+            out.println("<td colspan=\"2\"><input type=\"submit\" value=\"Submit\"></td>");
+            out.println("</tr>");
+            out.println("</table>");
+            out.println("</form>");
+            out.println("</p>");
+            out.println("</body>");
+            out.println("</html>");
+        } finally { 
+            out.close();
+        }
+    } 
+
+    /** 
+     * Handles the HTTP <code>POST</code> method.
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        doGet(request, response);
+    }
+
+    /** 
+     * Returns a short description of the servlet.
+     * @return a String containing servlet description
+     */
+    @Override
+    public String getServletInfo() {
+        return "Short description";
+    }// </editor-fold>
+
+}
