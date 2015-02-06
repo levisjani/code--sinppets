@@ -1,10 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package unyt.servlets;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -16,10 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import unyt.utils.Item;
 
-/**
- *
- * @author elton
- */
+
 public class PaymentServlet extends HttpServlet {
    
     /** 
