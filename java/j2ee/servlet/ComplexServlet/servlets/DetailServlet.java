@@ -1,10 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package unyt.servlets;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -14,10 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 import unyt.utils.General;
 import unyt.utils.Item;
 
-/**
- *
- * @author elton
- */
 public class DetailServlet extends HttpServlet {
    
     /** 
