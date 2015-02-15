@@ -3,7 +3,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-
 public class General {
     public static List<Item> itemsList() {
         List<Item> list = new ArrayList<Item>();
@@ -37,6 +36,6 @@ public class General {
     }
 
     public static void makePayment(String ccno, double totPrice) {
-        // the business code for payment processing will go here
+    
     }
 }
