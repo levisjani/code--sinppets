@@ -9,9 +9,6 @@ public class Item {
         setUnitPrice(unitPrice);
     }
 
-    /**
-     * @return the id
-     */
     public String getId() {
         return id;
     }
